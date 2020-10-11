@@ -1,0 +1,6 @@
+a=float(input('첫 번째 실수를 입력하세요: '))
+b=float(input('두 번째 실수를 입력하세요: '))
+print('%1.1f + %1.1f = %1.1f' %(a, b, a+b))
+print(a, '+', b, '=', a+b)
+print('%1.1f+%1.1f=%1.1f' %(a, b, a+b))
+print(a, '+', b, '=', a+b, sep='')
